@@ -1,6 +1,11 @@
 // TODO: write your code here
-import sum from './basic';
+import Character from './Classes/character';
 
-console.log('worked');
 
-console.log(sum([1, 2]));
+const hero = new Character('Faran');
+console.log(hero);
+
+hero.powerMode = true;
+console.log(hero);
+// console.log(bowerman.attack);
+// console.log(bowerman.health);
